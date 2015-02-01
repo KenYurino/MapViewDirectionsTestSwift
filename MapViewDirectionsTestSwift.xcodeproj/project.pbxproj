@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD117FB81A7E601D00988EF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD117FB71A7E601D00988EF8 /* AppDelegate.swift */; };
+		CD117FBA1A7E601D00988EF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD117FB91A7E601D00988EF8 /* ViewController.swift */; };
+		CD117FBD1A7E601D00988EF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD117FBB1A7E601D00988EF8 /* Main.storyboard */; };
+		CD117FBF1A7E601D00988EF8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD117FBE1A7E601D00988EF8 /* Images.xcassets */; };
+		CD117FC21A7E601D00988EF8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD117FC01A7E601D00988EF8 /* LaunchScreen.xib */; };
+		CD117FCE1A7E601D00988EF8 /* MapViewDirectionsTestSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD117FCD1A7E601D00988EF8 /* MapViewDirectionsTestSwiftTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD117FC81A7E601D00988EF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD117FAA1A7E601C00988EF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD117FB11A7E601D00988EF8;
+			remoteInfo = MapViewDirectionsTestSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD117FB21A7E601D00988EF8 /* MapViewDirectionsTestSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapViewDirectionsTestSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD117FB61A7E601D00988EF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD117FB71A7E601D00988EF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD117FB91A7E601D00988EF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD117FBC1A7E601D00988EF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD117FBE1A7E601D00988EF8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD117FC11A7E601D00988EF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CD117FC71A7E601D00988EF8 /* MapViewDirectionsTestSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapViewDirectionsTestSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD117FCC1A7E601D00988EF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD117FCD1A7E601D00988EF8 /* MapViewDirectionsTestSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewDirectionsTestSwiftTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD117FAF1A7E601D00988EF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD117FC41A7E601D00988EF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD117FA91A7E601C00988EF8 = {
+			isa = PBXGroup;
+			children = (
+				CD117FB41A7E601D00988EF8 /* MapViewDirectionsTestSwift */,
+				CD117FCA1A7E601D00988EF8 /* MapViewDirectionsTestSwiftTests */,
+				CD117FB31A7E601D00988EF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD117FB31A7E601D00988EF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD117FB21A7E601D00988EF8 /* MapViewDirectionsTestSwift.app */,
+				CD117FC71A7E601D00988EF8 /* MapViewDirectionsTestSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD117FB41A7E601D00988EF8 /* MapViewDirectionsTestSwift */ = {
+			isa = PBXGroup;
+			children = (
+				CD117FB71A7E601D00988EF8 /* AppDelegate.swift */,
+				CD117FB91A7E601D00988EF8 /* ViewController.swift */,
+				CD117FBB1A7E601D00988EF8 /* Main.storyboard */,
+				CD117FBE1A7E601D00988EF8 /* Images.xcassets */,
+				CD117FC01A7E601D00988EF8 /* LaunchScreen.xib */,
+				CD117FB51A7E601D00988EF8 /* Supporting Files */,
+			);
+			path = MapViewDirectionsTestSwift;
+			sourceTree = "<group>";
+		};
+		CD117FB51A7E601D00988EF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD117FB61A7E601D00988EF8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD117FCA1A7E601D00988EF8 /* MapViewDirectionsTestSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD117FCD1A7E601D00988EF8 /* MapViewDirectionsTestSwiftTests.swift */,
+				CD117FCB1A7E601D00988EF8 /* Supporting Files */,
+			);
+			path = MapViewDirectionsTestSwiftTests;
+			sourceTree = "<group>";
+		};
+		CD117FCB1A7E601D00988EF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD117FCC1A7E601D00988EF8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD117FB11A7E601D00988EF8 /* MapViewDirectionsTestSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD117FD11A7E601D00988EF8 /* Build configuration list for PBXNativeTarget "MapViewDirectionsTestSwift" */;
+			buildPhases = (
+				CD117FAE1A7E601D00988EF8 /* Sources */,
+				CD117FAF1A7E601D00988EF8 /* Frameworks */,
+				CD117FB01A7E601D00988EF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapViewDirectionsTestSwift;
+			productName = MapViewDirectionsTestSwift;
+			productReference = CD117FB21A7E601D00988EF8 /* MapViewDirectionsTestSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD117FC61A7E601D00988EF8 /* MapViewDirectionsTestSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD117FD41A7E601D00988EF8 /* Build configuration list for PBXNativeTarget "MapViewDirectionsTestSwiftTests" */;
+			buildPhases = (
+				CD117FC31A7E601D00988EF8 /* Sources */,
+				CD117FC41A7E601D00988EF8 /* Frameworks */,
+				CD117FC51A7E601D00988EF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD117FC91A7E601D00988EF8 /* PBXTargetDependency */,
+			);
+			name = MapViewDirectionsTestSwiftTests;
+			productName = MapViewDirectionsTestSwiftTests;
+			productReference = CD117FC71A7E601D00988EF8 /* MapViewDirectionsTestSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD117FAA1A7E601C00988EF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Ken Yurino";
+				TargetAttributes = {
+					CD117FB11A7E601D00988EF8 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					CD117FC61A7E601D00988EF8 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = CD117FB11A7E601D00988EF8;
+					};
+				};
+			};
+			buildConfigurationList = CD117FAD1A7E601C00988EF8 /* Build configuration list for PBXProject "MapViewDirectionsTestSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD117FA91A7E601C00988EF8;
+			productRefGroup = CD117FB31A7E601D00988EF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD117FB11A7E601D00988EF8 /* MapViewDirectionsTestSwift */,
+				CD117FC61A7E601D00988EF8 /* MapViewDirectionsTestSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD117FB01A7E601D00988EF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD117FBD1A7E601D00988EF8 /* Main.storyboard in Resources */,
+				CD117FC21A7E601D00988EF8 /* LaunchScreen.xib in Resources */,
+				CD117FBF1A7E601D00988EF8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD117FC51A7E601D00988EF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD117FAE1A7E601D00988EF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD117FBA1A7E601D00988EF8 /* ViewController.swift in Sources */,
+				CD117FB81A7E601D00988EF8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD117FC31A7E601D00988EF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD117FCE1A7E601D00988EF8 /* MapViewDirectionsTestSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD117FC91A7E601D00988EF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD117FB11A7E601D00988EF8 /* MapViewDirectionsTestSwift */;
+			targetProxy = CD117FC81A7E601D00988EF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD117FBB1A7E601D00988EF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD117FBC1A7E601D00988EF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD117FC01A7E601D00988EF8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD117FC11A7E601D00988EF8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD117FCF1A7E601D00988EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD117FD01A7E601D00988EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD117FD21A7E601D00988EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MapViewDirectionsTestSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD117FD31A7E601D00988EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MapViewDirectionsTestSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD117FD51A7E601D00988EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MapViewDirectionsTestSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapViewDirectionsTestSwift.app/MapViewDirectionsTestSwift";
+			};
+			name = Debug;
+		};
+		CD117FD61A7E601D00988EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MapViewDirectionsTestSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapViewDirectionsTestSwift.app/MapViewDirectionsTestSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD117FAD1A7E601C00988EF8 /* Build configuration list for PBXProject "MapViewDirectionsTestSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD117FCF1A7E601D00988EF8 /* Debug */,
+				CD117FD01A7E601D00988EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD117FD11A7E601D00988EF8 /* Build configuration list for PBXNativeTarget "MapViewDirectionsTestSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD117FD21A7E601D00988EF8 /* Debug */,
+				CD117FD31A7E601D00988EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD117FD41A7E601D00988EF8 /* Build configuration list for PBXNativeTarget "MapViewDirectionsTestSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD117FD51A7E601D00988EF8 /* Debug */,
+				CD117FD61A7E601D00988EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD117FAA1A7E601C00988EF8 /* Project object */;
+}
